@@ -1,0 +1,8 @@
+.paragraph {
+    font-weight: 800;
+    color: blue;
+    background: coral;
+    border: 2px solid black;
+    padding: 30px;
+    font-style: italic;
+}
