@@ -1,37 +1,323 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Hub</title>
-    <link rel="stylesheet" href="header.css">
+    <title>E-commerce Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NavBAR Start -->
-     <nav class="navbar">
-        <!-- Logo start -->
-        <div class="logo">ShopHub</div>
-        <!-- Menu Links -->
-         <ul class="nav-menu">
-            <li><a href="#home">home</a></li>
-            <li><a href="#shop">shop</a></li>
-            <li><a href="#products">products</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-         <!-- Actions Buttons -->
-          <div class="nav-actions">
-            <!-- Search Button -->
-            <button class="icon-btn" title="Search">🔍</button>
-            <!-- WhishList Button -->
-            <button class="icon-btn" title="WhishList">❤️</button>
-            <!-- Cart Button -->
-            <button class="icon-btn" title="cat">🛒</button>
-            <!-- Log in Button -->
-            <button class="login-btn">Login</button>
-          </div>
-          <!-- Mobile Menu Toggle -->
-           <button class="mobile-toggle">☰</button>
-     </nav>
+
+    <!-- ========================================
+         HEADER SECTION
+    ======================================== -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">ShopHub</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================
+         MAIN CONTENT AREA
+    ======================================== -->
+    <main>
+        
+        <!-- ========================================
+             HERO SECTION
+        ======================================== -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    
+                    <!-- বাম পাশ: Text Content -->
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Shop The Latest Trends
+                        </h1>
+                        <p class="hero-description">
+                            Discover amazing products at unbeatable prices. 
+                            Quality guaranteed with fast shipping.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary">Shop Now</button>
+                            <button class="btn btn-secondary">Learn More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ডান পাশ: Image -->
+                    <div class="hero-image">
+                        <img src="https://via.placeholder.com/500x400" alt="Hero">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             CATEGORIES SECTION
+        ======================================== -->
+        <section class="categories-section">
+            <div class="container">
+                
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Shop By Category</h2>
+                    <p class="section-subtitle">Find what you're looking for</p>
+                </div>
+                
+                <!-- Categories Grid -->
+                <div class="categories-grid">
+                    
+                    <!-- Category 1 -->
+                    <div class="category-card">
+                        <div class="category-icon">👕</div>
+                        <h3 class="category-name">Fashion</h3>
+                    </div>
+                    
+                    <!-- Category 2 -->
+                    <div class="category-card">
+                        <div class="category-icon">📱</div>
+                        <h3 class="category-name">Electronics</h3>
+                    </div>
+                    
+                    <!-- Category 3 -->
+                    <div class="category-card">
+                        <div class="category-icon">🏠</div>
+                        <h3 class="category-name">Home & Living</h3>
+                    </div>
+                    
+                    <!-- Category 4 -->
+                    <div class="category-card">
+                        <div class="category-icon">⚽</div>
+                        <h3 class="category-name">Sports</h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             PRODUCTS SECTION
+        ======================================== -->
+        <section class="products-section">
+            <div class="container">
+                
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2 class="section-title">Best Selling Products</h2>
+                    <p class="section-subtitle">Our customers' favorites</p>
+                </div>
+                
+                <!-- Products Grid -->
+                <div class="products-grid">
+                    
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <!-- Image Area -->
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x250" alt="Product">
+                            <span class="product-badge">-20%</span>
+                        </div>
+                        
+                        <!-- Info Area -->
+                        <div class="product-info">
+                            <!-- Meta -->
+                            <div class="product-meta">
+                                <span class="product-category">Fashion</span>
+                                <span class="product-rating">⭐ 4.5</span>
+                            </div>
+                            
+                            <h3 class="product-name">Premium Cotton T-Shirt</h3>
+                            <p class="product-description">
+                                Comfortable and stylish everyday wear
+                            </p>
+                            
+                            <!-- Footer -->
+                            <div class="product-footer">
+                                <span class="product-price">$29.99</span>
+                                <button class="product-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x250" alt="Product">
+                            <span class="product-badge">New</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Electronics</span>
+                                <span class="product-rating">⭐ 4.8</span>
+                            </div>
+                            <h3 class="product-name">Wireless Headphones</h3>
+                            <p class="product-description">
+                                Crystal clear sound quality
+                            </p>
+                            <div class="product-footer">
+                                <span class="product-price">$89.99</span>
+                                <button class="product-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x250" alt="Product">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-category">Home</span>
+                                <span class="product-rating">⭐ 4.7</span>
+                            </div>
+                            <h3 class="product-name">Smart LED Lamp</h3>
+                            <p class="product-description">
+                                Modern design with app control
+                            </p>
+                            <div class="product-footer">
+                                <span class="product-price">$49.99</span>
+                                <button class="product-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             FEATURES SECTION
+        ======================================== -->
+        <section class="features-section">
+            <div class="container">
+                
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <p class="section-subtitle">We provide the best shopping experience</p>
+                </div>
+                
+                <div class="features-grid">
+                    
+                    <!-- Feature 1 -->
+                    <div class="feature-item">
+                        <div class="feature-icon">🚚</div>
+                        <div class="feature-content">
+                            <h3>Free Shipping</h3>
+                            <p>Free delivery on orders over $50. Fast and reliable shipping worldwide.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="feature-item">
+                        <div class="feature-icon">🔒</div>
+                        <div class="feature-content">
+                            <h3>Secure Payment</h3>
+                            <p>100% secure transactions. Your payment information is safe with us.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="feature-item">
+                        <div class="feature-icon">↩️</div>
+                        <div class="feature-content">
+                            <h3>Easy Returns</h3>
+                            <p>30-day return policy. Not satisfied? Get your money back hassle-free.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             NEWSLETTER SECTION
+        ======================================== -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+                    <p class="newsletter-text">
+                        Get the latest updates on new products and upcoming sales
+                    </p>
+                    <form class="newsletter-form">
+                        <input 
+                            type="email" 
+                            class="newsletter-input" 
+                            placeholder="Enter your email"
+                        >
+                        <button type="submit" class="newsletter-btn">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================
+         FOOTER SECTION
+    ======================================== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                
+                <!-- Column 1: About -->
+                <div class="footer-column">
+                    <h3>About ShopHub</h3>
+                    <p>Your trusted online shopping destination. Quality products at affordable prices.</p>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Categories -->
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Social -->
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 ShopHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
